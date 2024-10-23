@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+body{
+    background-image: url("https://i.pinimg.com/originals/22/d4/15/22d4156a1d5ad637f31b6b99f6cb314a.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    padding-top: 10px;
+    height: 60px;
+    background-color: white;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    gap: 50px;
+    font-size: 1.2rem;
+}
+main{
+    display:flex;
+    gap: 45px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    scale: 95%;
+
+}
+div{
+    padding: 50px 10px;
+    text-align: center;
+    background-color: white;
+    width: 300px;
+    align-items: center;
+    border-radius: 6px;
+}
+img{
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin:auto;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+button{
+    color: white;
+    padding:7px 15px;
+    border-radius: 30px;
+    border: none;
+    margin-bottom:5px ;
+}
+.trav button{
+    background-color: rgba(80, 80, 154, 0.836);
+}
+.tech button{
+    background-color: rgb(215, 168, 83);
+}
+.fash button{
+    background-color: rgb(203, 90, 203);
+}
+h2{
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+p{
+    color: rgb(166, 166, 166);
+    margin-top: 5px;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
